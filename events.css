@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    color: blue;
+}
+
+header {
+    background-color: #aae;
+    color: #fff;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 400px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #337;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0;
+    }
+}
+
+.overlay img {
+    width: 90%;
+    height: 300px;
+    margin-left: 70px;
+}
+
+.overlay {
+    width: 100%;
+    height: 58%;
+}
+.inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inner h1 {
+    text-align: center;
+    margin-top: -160px;
+    color: white;
+    font: 50px Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.text h2 {
+    font: 50px;
+    font-weight: bold;
+}
+
+.text p{
+    font: 20px;
+
+}
+.gallery-container {
+    width: 100%;
+    display: flex;
+    font: 15px Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+
+}
+.desc {
+  padding: 10px;
+  text-align: center;
+  background-color: #337;
+  border-radius: 10px;
+  margin-top: -4px;
+  width: 86%;
+}
+.gallery_1 img, .gallery_2 img, .gallery_3 img {
+    width: 90%;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 2px;
+    margin-right: 2%;
+}
+.gallery_1, .gallery_2, .gallery_3 {
+    width: 600px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.details-container {
+    display: flex;
+    background: rgb(21, 21, 83);
+    color: white;
+    font: 18px, Arial;
+    margin-top: 20px;
+}
+
+.details-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.details-container a:hover {
+    color: red;
+}
+
+.left-detail {
+    flex: 1px;
+}
+
+.center-detail {
+    flex: 1px;
+}
+
+.middle-detail {
+    flex: 1px;
+}
+
+.right-detail {
+    flex: 1px;
+}
