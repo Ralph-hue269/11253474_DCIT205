@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #aae;
+    color: #fff;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    width: 400px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #337;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0;
+    }
+}
+
+h2 {
+    color: blue;
+}
+
+h4 {
+    font: 18px;
+}
+.detail_1, .detail_2, .detail_3 {
+   font-weight: bold;
+}
+
+.detail_1 a:hover, .detail_2 a:hover, .detail_3 a:hover{
+    color: red;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.details-container {
+    display: flex;
+    background: rgb(21, 21, 83);
+    color: white;
+    font: 18px, Arial;
+}
+
+.details-container a {
+    color: white;
+    text-decoration: none;
+}
+
+.details-container a:hover {
+    color: red;
+}
+
+.left-detail {
+    flex: 1px;
+}
+
+.center-detail {
+    flex: 1px;
+}
+
+.middle-detail {
+    flex: 1px;
+}
+
+.right-detail {
+    flex: 1px;
+}
