@@ -1,7 +1,6 @@
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    color: blue;
-    font-weight: bold;
 }
 
 header {
@@ -55,30 +54,11 @@ nav a:hover {
     }
 }
 
-.pic_container img {
-    width: 100%;
-    height: 600px;
-}
-
-.gallery img {
-    width: 1350px;
-    height: 750px;
-    border-radius: 50%;
-}
-
-.contain {
+.container {
     display: flex;
-    margin: 10px;
 }
-.left-detail img {
-    width: 600px;
-    height: 500px;
-    border-radius: 100%;
-}
-.right-detail img {
-    width: 600px;
-    height: 500px;
-    border-radius: 50px;
+.desc {
+    display: flex;
 }
 
 ul {
