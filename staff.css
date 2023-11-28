@@ -54,10 +54,15 @@ nav a:hover {
         margin: 0;
     }
 }
-
+.container-1, .container-2, .container-3 {
+    display: flex;
+}
 .desc img{
     width: 200px;
     border-radius: 50%;
+    margin-right: 70px;
+    position: center;
+
 }
 
 ul {
