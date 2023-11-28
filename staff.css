@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    font-weight: bold;
 }
 
 header {
@@ -54,11 +55,9 @@ nav a:hover {
     }
 }
 
-.container {
-    display: flex;
-}
-.desc {
-    display: flex;
+.desc img{
+    width: 200px;
+    border-radius: 50%;
 }
 
 ul {
