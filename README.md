@@ -7,16 +7,16 @@ Welcome to the Computer Science Department website!. This website serves as mean
 
 ## Table of Contents
 
- **HomePage**
- **About**
- **Events**
- **Catalog**
- **Resources**
- **Students**
- **Projects**
- **Staff**
- **FAQ**
- **Contact Us**
+1. **Home**
+2. **About**
+3.  **Events**
+4.  **Catalog**
+5. **Resources**
+6. **Students**
+7. **Projects**
+8. **Staff**
+9. **FAQ**
+10. **Contact Us**
 
 
 # Screenshots
